@@ -25,7 +25,7 @@ if "page" not in st.session_state:
 # ---------------- LOAD MODELS ----------------
 @st.cache_resource
 def load_detection_model():
-    return YOLO("SmartVision_v1.pt")
+    return YOLO("SmartVision_v3.pt")
 
 @st.cache_resource
 def load_classification_model():
